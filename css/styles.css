@@ -14,10 +14,23 @@
 
 .nav-tabs {
     text-align:center;
+    background-color:lightgray;
 }
 
 .row-margin {
   margin-top: 20px;
+}
+
+.header{
+  position:fixed;
+  max-height: 250px;
+  height: 250px;
+  width:100%;
+  z-index:1;
+}
+
+.content-offset {
+  margin-top:255px;
 }
 
 .image-paragraph {
