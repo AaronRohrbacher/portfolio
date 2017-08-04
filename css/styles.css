@@ -1,5 +1,3 @@
-
-
 .center {
   text-align:center;
 }
@@ -18,10 +16,6 @@
     text-align:center;
     background-color:lightgray;
 }
-
-/*.row-margin {
-  margin-top: 20px;
-}*/
 
 .header{ /*fixes header, z-index to keep on top of other elements */
   position:fixed;
@@ -46,10 +40,6 @@ margin:-300px 0 0; /* negative fixed header height */
   margin-right: 5px;
   height: 50%;
 }
-
-/*.project-panel-height {
-  height: 425px;
-}*/
 
 .highlight {
   color:red;
