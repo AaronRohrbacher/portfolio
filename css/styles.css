@@ -1,35 +1,37 @@
+
+
 .center {
   text-align:center;
 }
 
-.reset-margin {
+.reset-margin { /*Removes margin from navbar to connect to header row */
   margin-top:0;
   margin-bottom:0;
 }
 
-.nav-tabs li {
+.nav-tabs li { /* removes float from li in navbar, enables centering in next rule */
     float:none;
     display:inline-block;
 }
 
-.nav-tabs {
+.nav-tabs { /*Centers and colors navbar*/
     text-align:center;
     background-color:lightgray;
 }
 
-.row-margin {
+/*.row-margin {
   margin-top: 20px;
-}
+}*/
 
-.header{
+.header{ /*fixes header, z-index to keep on top of other elements */
   position:fixed;
-  height: 250px;
+
   width:100%;
   z-index:1;
 }
 
-.content-offset { /*offsets content from fixed header */
-  margin-top:300px;
+.content-offset { /*offsets content from fixed header (demonstrates box model)*/
+  margin-top:250px;
 }
 
 :target:before { /* offsets anchor links for fixed header */
@@ -39,9 +41,10 @@ height:300px; /* fixed header height*/
 margin:-300px 0 0; /* negative fixed header height */
 }
 
-.image-paragraph { /*floats "about me image" and pads for a nicer wrap.*/
+.image-paragraph {
   float:left;
   margin-right: 5px;
+  height: 50%;
 }
 
 /*.project-panel-height {
@@ -55,4 +58,14 @@ margin:-300px 0 0; /* negative fixed header height */
 .language-nav img{ /*gives the various programming language icons in the header a little breathing room */
   height: 50px;
   margin-left: 40px;
+}
+
+.panel-body img { /* adds effect to panel images, demonstrates cascading */
+  border-radius: 20%;
+  margin: 0 auto;
+}
+
+.content-container { /*Keeps images from strething badly */
+max-width: 1280px;
+margin: 0 auto;
 }
