@@ -15,3 +15,12 @@
 .nav-tabs {
     text-align:center;
 }
+
+.row-margin {
+  margin-top: 10px;
+}
+
+.image-paragraph {
+  float:left;
+  margin-right: 5px;
+}
