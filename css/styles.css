@@ -23,30 +23,36 @@
 
 .header{
   position:fixed;
-  max-height: 250px;
   height: 250px;
   width:100%;
   z-index:1;
 }
 
-.content-offset {
-  margin-top:255px;
+.content-offset { /*offsets content from fixed header */
+  margin-top:300px;
 }
 
-.image-paragraph {
+:target:before { /* offsets anchor links for fixed header */
+content:"";
+display:block;
+height:300px; /* fixed header height*/
+margin:-300px 0 0; /* negative fixed header height */
+}
+
+.image-paragraph { /*floats "about me image" and pads for a nicer wrap.*/
   float:left;
   margin-right: 5px;
 }
 
-.project-panel-height {
+/*.project-panel-height {
   height: 425px;
-}
+}*/
 
 .highlight {
   color:red;
 }
 
-.language-nav img{
+.language-nav img{ /*gives the various programming language icons in the header a little breathing room */
   height: 50px;
   margin-left: 40px;
 }
