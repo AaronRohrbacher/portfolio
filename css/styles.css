@@ -1,0 +1,17 @@
+.center {
+  text-align:center;
+}
+
+.reset-margin {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.nav-tabs li {
+    float:none;
+    display:inline-block;
+}
+
+.nav-tabs {
+    text-align:center;
+}
