@@ -24,3 +24,7 @@
   float:left;
   margin-right: 5px;
 }
+
+.project-panel-height {
+  height: 425px;
+}
