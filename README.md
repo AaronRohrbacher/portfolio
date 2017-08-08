@@ -1,6 +1,7 @@
 # _Aaron Rohrbacher's Portfolio_
+## [View on Github Pages](https://aaronrohrbacher.github.com/portfolio)
 
-#### _This is a portfolio website for Aaron Rohrbacher, utilizing a fixed header, images, and basic HTML and CSS, along with bootstrap classes., 8/4/2017_
+#### _This is a portfolio website for Aaron Rohrbacher, utilizing a fixed header, images, and basic HTML and CSS, along with bootstrap classes. 8/4/2017_
 
 #### By _**Aaron Rohrbacher**_
 
